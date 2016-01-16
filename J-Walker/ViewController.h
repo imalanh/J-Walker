@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UIImageView *student;
+    NSTimer *CarMovement;
+    NSTimer *CarSize;
+    NSTimer *StudentMovement;
+    IBOutlet UIButton *buttonLeft;
+    IBOutlet UILabel *scoreBoard;
+    IBOutlet UIButton *buttonRight;
+    IBOutlet UIButton *startButton;
+}
+
+
 
 @end
